@@ -1,0 +1,105 @@
+actions:
+- utter_welcome_message
+- utter_academic_calender
+- utter_cheer_up
+- utter_college_name
+- utter_courses
+- utter_did_that_help
+- utter_director
+- utter_faculty
+- utter_fees
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_hostel
+- utter_iamabot
+- utter_library
+- utter_location
+- utter_name
+- utter_swear
+- utter_task
+intents:
+- hello
+- task
+- greet
+- name
+- mood_great
+- goodbye
+- affirm
+- bot_challenge
+- director
+- courses
+- fees
+- location
+- college_name
+- hostel
+- faculty
+- academic_calender
+- swear
+- library
+responses:
+  utter_welcome_message:
+  - text: 'Welcome'  
+  utter_academic_calender:
+  - text: 'Visit the link for following : https://www.iiitm.ac.in/index.php/en/academics-final/academic-calendar-for-even-semester-2019-20 '
+  utter_cheer_up:
+  - text: Watch some funny videos on youtube :)
+  utter_college_name:
+  - text: Atal Bihari Vajpayee-Indian Institute of Information Technology and Management
+      (ABV-IIITM)
+  utter_courses:
+  - text: "ABV-IIITM offers post graduate and integrated post graduate degrees to\
+      \ students in areas of IT (information technology) and management. Integrated\
+      \ Post Graduate 5-year course is a pioneering attempt of this institute, in\
+      \ addition to the usual M.Tech in IT and MBA programs. All study courses in\
+      \ this institute are fully residential and students are required to stay throughout\
+      \ their program except vacations.\nAcademics in IIITM began with  PGDMIT (Post\
+      \ Graduate Diploma in Management and Information Technology) in 1998, followed\
+      \ by PGDIT (Post Graduate Diploma in Information Technology) in 1999, and Ph.\
+      \ D. in 2000. Our 5-year IPG (Integrated Post Graduate) program was also initiated\
+      \ in 2000.\nThis institute offers doctoral degrees in various fields of IT and\
+      \ management. Apart from these regular study courses, the institute conducts\
+      \ MDP (Management Development Programs) for outsiders from time to time.\nFor\
+      \ more details : https://www.iiitm.ac.in/index.php/en/course-of-study-footer "
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_director:
+  - text: Prof. Rajendra Sahu is the director of ABV-IIITM Gwalior.
+  utter_faculty:
+  - text: 'For details about our college faculty visit : https://www.iiitm.ac.in/index.php/en/component/splms/?view=teachers '
+  utter_fees:
+  - text: 'For fee details visit the following link : https://www.iiitm.ac.in/images/2019/07/Fee-Structure-2019---Revised.pdf '
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_hostel:
+  - text: ' There are 3 boys’ hostels and 1 girls’ hostel in the campus. Each hostel
+      has students from all years For more details :https://www.iiitm.ac.in/uploads/2020/prospectus/New%20Prospectus.pdf'
+  utter_iamabot:
+  - text: Hey , you got me :P.
+  utter_library:
+  - text: 'For details about library of ABV-IIITM visit : https://www.iiitm.ac.in/images/2018/Library/library_manual.pdf '
+  utter_location:
+  - text: "ABV-IIITM is located on Morena Link Road at a distance of about 3.5km and\
+      \ 8.5km from Gwalior railway station and Rajmata Vijay Raje Scindia city airport\
+      \ respectively. Its location at the foothills of Gwalior fort is idyllic for\
+      \ an institute of this stature. Though it is not far from city centre it has\
+      \ a tranquil ambiance as desired of an academic institute. With nearly four-fifths\
+      \ of the institute covered with greenery, the environment is pristine and tranquil.\
+      \ Together with academics it offers an ideal surrounding for extra-curricular\
+      \ activities.\nThe institute is easily accessible by road, and there are cabs\
+      \ and auto-rickshaws to commute from railway station or airport. Shopping centres\
+      \ and market places are located nearby and about ten minutes driving distance\
+      \ away."
+  utter_name:
+  - text: I am IIITM Bot
+  utter_swear:
+  - text: Maintaining decency is appreciated .
+  utter_task:
+  - text: I can answer to low-intermediate questions regarding college
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60

@@ -1,0 +1,14 @@
+2020-04-16 14:47:41,026 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-16 14:51:18,488 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "d:\softwares\anaconda\envs\nenv\lib\site-packages\sanic\app.py", line 940, in handle_request
+    handler, args, kwargs, uri, name = self.router.get(request)
+  File "d:\softwares\anaconda\envs\nenv\lib\site-packages\sanic\router.py", line 411, in get
+    return self._get(request.path, request.method, "")
+  File "d:\softwares\anaconda\envs\nenv\lib\site-packages\sanic\router.py", line 475, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2020-04-16 14:52:17,806 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2020-04-16 14:52:18,057 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None

@@ -1,0 +1,18 @@
+2020-04-16 14:54:21,658 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-16 21:27:15,587 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "d:\softwares\anaconda\envs\nenv\lib\site-packages\sanic\app.py", line 1167, in run
+    serve(**server_settings)
+  File "d:\softwares\anaconda\envs\nenv\lib\site-packages\sanic\server.py", line 920, in serve
+    loop.run_forever()
+  File "d:\softwares\anaconda\envs\nenv\lib\asyncio\base_events.py", line 538, in run_forever
+    self._run_once()
+  File "d:\softwares\anaconda\envs\nenv\lib\asyncio\base_events.py", line 1746, in _run_once
+    event_list = self._selector.select(timeout)
+  File "d:\softwares\anaconda\envs\nenv\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "d:\softwares\anaconda\envs\nenv\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "d:\softwares\anaconda\envs\nenv\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
