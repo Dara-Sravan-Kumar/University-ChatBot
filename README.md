@@ -38,4 +38,4 @@ Experience The University_ChatBot. :)
 
 If you want know more about RASA framework, its components and its backend working, Please refer to the link which has a document prepared by @Dara Sravan Kumar, @Suggula Jagadeesh @Verra Dinesh 
 
-link : https://docs.google.com/document/d/14d4y6EvjbOQKqstdEWVu-McCiQznKv2dCisKRQiF610/edit?usp=sharing
+link : https://drive.google.com/file/d/12Amf1lwPgH7MhcZSLD0WN_kFZ3Pgku6N/view?usp=sharing
